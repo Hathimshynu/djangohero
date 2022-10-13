@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+{% load crispy_forms_tags %}
+{% load static %}
+<link rel="stylesheet" href="{% static 'css/bootstrap.min.css' %}">
+<body>
+    {{form|crispy}}
+    <!-- <h3>Registration Form</h3>
+    <form action="www.google.com" method="post">
+        {% csrf_token %}
+        {{form.as_p}}
+        <button type="submit" class="btn">Register</button> -->
+
+ </form>
+    
+</body>
+</html>
